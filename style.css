@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.foto-header {
+    border-radius: 50%;
+    width: 120px; /* Ukuran foto */
+    height: 120px;
+    object-fit: cover; /* Foto tetap terlihat proporsional */
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: #333;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-instal-ulang {
+    background-image: url('instal-ulang-bg.jpg'); /* Ganti dengan URL gambar instal ulang */
+}
+
+.bg-desain {
+    background-image: url('desain-bg.jpg'); /* Ganti dengan URL gambar desain */
+}
+
+.bg-pembuatan-web {
+    background-image: url('pembuatan-web-bg.jpg'); /* Ganti dengan URL gambar pembuatan web */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #ffcc00;
+}
